@@ -1,0 +1,9 @@
+h1 {
+  color: red;
+  font-size: 14px;
+}
+
+ul, li {
+  padding: 0;
+  list-style: none;
+}

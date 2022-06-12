@@ -1,0 +1,28 @@
+{
+  "name": "markdown-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "liquidjs": "^9.37.0",
+    "markdown-loader": "^8.0.0",
+    "marked": "^4.0.16"
+  },
+  "devDependencies": {
+    "clean-terminal-webpack-plugin": "^3.0.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
