@@ -1,4 +1,5 @@
 import { Liquid } from 'liquidjs';
+import defineElement from '../../components/header';
 
 function pushContents(target, content) {
   target.innerHTML = content;
@@ -32,4 +33,5 @@ function setTitle(post) {
   mapPath(postname);
   setTitle(postname);
   pushContents(contents, parsedMd)
+  defineElement();
 })()
